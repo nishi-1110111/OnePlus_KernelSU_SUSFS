@@ -18,9 +18,7 @@ on:
         type: choice
         options:
           - stable
-          - next
-          - next-susfs
-          - next-susfs-dev
+          - dev
         default: stable
 
 jobs:
