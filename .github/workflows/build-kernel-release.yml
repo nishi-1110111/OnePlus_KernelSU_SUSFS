@@ -11,9 +11,9 @@ on:
         description: 'Do you want to create a release?'
         required: true
         type: boolean
-        default: true
+        default: false
       ksun_branch:
-        description: "Choose KernelSU Next Branch"
+        description: "Choose KernelSU Branch"
         required: true
         type: choice
         options:
